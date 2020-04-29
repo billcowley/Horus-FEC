@@ -1,0 +1,116 @@
+# Created by Octave 4.4.1, Tue Apr 28 20:58:18 2020 ACST <bill@rpi4>
+# name: sim_in
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 9
+# name: comment
+# type: sq_string
+# elements: 1
+# length: 22
+APP test with 4 params
+
+
+# name: Esvec
+# type: range
+# base, limit, increment
+-6 0 0.5
+
+
+# name: rate
+# type: scalar
+0.33333333333333331
+
+
+# name: framesize
+# type: scalar
+384
+
+
+# name: mod_order
+# type: scalar
+2
+
+
+# name: Lim_Ferrs
+# type: scalar
+100
+
+
+# name: Ntrials
+# type: scalar
+10000
+
+
+# name: deb
+# type: scalar
+0
+
+
+# name: app
+# type: matrix
+# rows: 1
+# columns: 4
+ 20 0.98999999999999999 30 0.75
+
+
+
+
+# name: sim_out
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 7
+# name: BERvec
+# type: matrix
+# rows: 1
+# columns: 13
+ 0.13048377403846154 0.10716145833333333 0.07220008389261745 0.037795608108108107 0.013320253403933434 0.0034688851513695338 0.0006797442297717842 0.000109375 2.5000000000000001e-05 1.171875e-05 3.9062500000000001e-06 3.9062500000000001e-06 1.5625000000000001e-06
+
+
+# name: Ebvec
+# type: range
+# base, limit, increment
+-1.2287874528033749 4.7712125471966251 0.5
+
+
+# name: NCWvec
+# type: matrix
+# rows: 1
+# columns: 13
+ 104 120 149 259 661 2081 7712 10000 10000 10000 10000 10000 10000
+
+
+# name: FERvec
+# type: matrix
+# rows: 1
+# columns: 13
+ 101 101 101 101 101 101 101 54 23 12 4 5 2
+
+
+# name: TERvec
+# type: matrix
+# rows: 1
+# columns: 13
+ 1737 1646 1377 1253 1127 924 671 140 32 15 5 5 2
+
+
+# name: cpumins
+# type: scalar
+21.580123466666667
+
+
+# name: genie_Es
+# type: scalar
+1
+
+
+
+
+# name: cparams
+# type: matrix
+# rows: 1
+# columns: 3
+ 128 384 384
+
+
