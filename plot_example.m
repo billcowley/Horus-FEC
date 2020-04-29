@@ -1,6 +1,6 @@
-% example of plotting some results on same figure 
+% example of plotting results from different simulations on the same figure 
 
-dfilename = 'test_H_128_384_23.mat'
+dfilename = 'test_H_128_384_23.mat'    % no apriori info here 
 col = 'b'
 plot_ldpc4
 dfilename = 'apptest_H_128_384_23.mat'
