@@ -40,3 +40,9 @@ has no error floor.  The magenta plot shows how prior information can improve it
 
 For comparison, plots of the K=128 rate 1/3 code considered above, plus a K=128, rate 1/2 are also shown.  Note 
 the rate 1/3 case (we used above) has an error floor.  
+
+### K=256 Examples 
+Files xxx_k256_summary.png illustrate results for K=256 parity check matrices listed in the figure legends.  For example, 
+two rate 1/4 codes are shown (dashed) and once again, one is better at lower SNRs, but suffers from an error floor.  The rate 1/3 code (blue) performs quite well, with no error floor.  The black curve is a rate 1/2 code.  These simulations all used Ntrials=30000, with standard decoding  (i.e. no prior information about information bit distributions).  
+
+8th May, 2020
